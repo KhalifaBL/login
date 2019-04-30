@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+.seperation {
+    height: 0.1px;
+    width: 100%;
+    color: black;
+}
+
+.wrapper {
+    max-width: 457px;
+    min-height: 363px;
+
+    box-shadow: 3px 3px 15px -1px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    margin: 140px auto;
+    background-color: white;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+}
+
+.input-container {
+    margin-top: 25px;
+    height: 100%;
+
+
+}
+
+.warning {
+    font-size: 12px;
+    font-weight: 300;
+    background-color: rgb(185, 185, 39);
+}
+
+.block {
+    display: block;
+    font-size: 16px;
+}
+
+.textInput {
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px dashed black;
+    border-top: none;
+    border-left: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-right: none;
+
+}
+
+.textInput:focus {
+
+    background-color: #EEEEEE;
+    border: none;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+
+
+.div-input {
+    margin-top: 25px;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+.important {
+    margin: 100px auto;
+}
